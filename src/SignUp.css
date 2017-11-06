@@ -4,7 +4,9 @@
     position: relative;
     height: 100vh;
 }
-
+.form-horizontal .form-group{
+    margin-right: 0px;
+}
 .brandSU{
     display: inline-block;
     background-size: contain;
