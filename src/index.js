@@ -6,11 +6,14 @@ import registerServiceWorker from './registerServiceWorker';
 import {Provider} from 'redux-zero/react';
 import store from './Store'
 
-const Index = () => (
-    <Provider store={store}>
-        <App />
-    </Provider>
-)
+const Index = () => {
+    return(
+        <Provider store={store}>
+            <App />
+        </Provider>
+    );
+}
 
 ReactDOM.render(<Index />, document.getElementById('root'));
 registerServiceWorker();
+    
