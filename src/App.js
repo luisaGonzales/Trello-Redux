@@ -15,6 +15,7 @@ const App = ({board, users}) => {
         <Route exact path="/signIn" render={() => <SignIn />} />
         <Route exact path="/signUp" render={() => <SignUp />} />
         <Route exact path="/boards" render={() => <Boards users={users}/>} />
+        <Route render={() => <Redirect to={"/"} />}/>
       </Switch>
     </BrowserRouter>
   )
