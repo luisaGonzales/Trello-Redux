@@ -32,7 +32,7 @@ export const SignIn = ({}) => {
                 <FormGroup>
                     <Col smOffset={4} sm={4}>
                         <Button type="submit" className="btnSubmit">
-                            Sign in
+                            <NavLink to="boards">Sign in</NavLink>
                         </Button>
                     </Col>
                 </FormGroup>
